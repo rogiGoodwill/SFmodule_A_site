@@ -1,0 +1,900 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans-Light.ttf');
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'OpenSans' ;
+	src: url('../fonts/OpenSans-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans-ExtraBold.ttf');
+	font-weight: 800;
+}
+
+
+
+body {
+	background-color: #F6F2F2;		
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-width: 320px;
+}
+
+p {
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 800;
+}
+
+h2 {
+	font-family: 'Open Sans', 'Helvetica Neue',	sans-serif;
+	font-weight: 700;
+}
+
+/*Правила для верхнего меню сайта*/
+nav {
+	max-width: 1249px;
+	min-height: 89px;
+	background-color: #000000;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	margin-bottom: 88px;
+}
+
+nav ul {
+	display: flex;
+	margin: 0;
+	flex-wrap: wrap;
+	padding: 0;
+}
+
+nav li {
+	display: flex;
+	list-style-type: none;
+	align-items: stretch;	
+	height: 89px;
+}
+
+nav li:hover {
+	background-color: #FF3F40;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.49px;
+	color: #E0E0E0;
+	display: flex;
+	align-items: center;
+	padding: 0 34px;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main {
+	flex-grow: 1;
+}
+
+
+
+/*Правила для первой страницы*/
+.main-page {
+	display: flex;
+	max-width: 1249px;
+	margin: 0 auto;
+	justify-content: space-between;
+	margin-bottom: 111px;
+	/* flex-wrap: wrap; */
+}
+
+.txt-our-org {
+	max-width: 618px;
+}
+
+.txt-our-org h1 {
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 60px;
+	line-height: 72px;
+	letter-spacing: 2.5px;
+	margin: 0;
+
+}
+
+.txt-our-org p {
+	margin-top: 20.52px;
+	font-size: 15.9953px;
+	line-height: 28px;
+	color: #000000;
+	max-width: 544.85px;
+	letter-spacing: 0.4px;
+}
+
+.txt-our-org>.btn-contact-us {
+	display: flex;
+	width: 227px;
+	height: 55px;
+	background-color: #FF2D2D;	
+	align-items: center;
+	margin-top: 57.48px;
+}
+.txt-our-org>.btn-contact-us a {
+	display: flex;
+	padding: 10px 67px;	
+	font-size: 18.0412px;
+	line-height: 34px;
+	letter-spacing: 0.3195px;
+	color: #FFFFFF;
+	font-family: 'Open Sans', 'Helvetica Neue',	sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.main-page img {		
+	width: 44%;
+	height: 100%;
+	object-fit: contain;
+}
+
+
+
+/*Правила для страниц 2-6*/
+.pages {
+	display: flex;
+	background-color: #FFFFFF;
+	max-width: 100%;
+	margin: 0 auto;
+	justify-content: space-between;	
+	flex-direction: column;
+	overflow:  hidden;
+}
+
+
+
+/*Правила для страницы 2*/
+.page-2-wrap {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1251px;
+	margin: 0 auto;
+	margin-top: 107.47px;
+	/* Видимость элемента */
+	/* display: none; */
+}
+
+.learn-more-wrap {
+	max-width: 623px;
+	/* margin-left: 164px; */
+}
+
+.learn-more-wrap h2 {
+	text-transform: uppercase;
+
+	font-size: 42.1902px;
+	line-height: 55px;
+	letter-spacing: 0.422159px;
+}
+
+.learn-more-wrap p {
+
+	font-size: 16px;
+	line-height: 28px;
+	color: #000000;
+	max-width: 539px;
+}
+.btn-learn-more-wrap {
+	display: flex;
+	width: 227px;
+	height: 55px;
+	background-color: rgba(0, 0, 0, 0.0001);	
+	align-items: center;
+	margin-top: 57.48px;
+	border: solid;
+	border-width: 2px;
+	border-color: #FF0000;
+}
+
+.btn-learn-more-wrap a {
+	display: flex;
+	padding: 10px 64px;	
+	font-size: 18.0412px;
+	line-height: 34px;
+	letter-spacing: 0.3195px;
+	color: #FFFFFF;
+	font-family: 'Open Sans', 'Helvetica Neue',	sans-serif;
+	font-weight: 300;
+	text-decoration: none;	
+	color: #FF2D2D;
+}
+
+.service-list-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 658px;
+	justify-content: space-between;
+}
+
+.point-wrap {
+	max-width: 301px;	
+	margin-bottom: 50px;	
+	margin-right: 20px;
+}
+
+.point-wrap img {
+	width: 32px;
+	height: 32px;
+	/*background-color: #FF0000;*/
+
+}
+
+.point-wrap h2 {
+
+	font-size: 24.07px;
+	line-height: 0px;
+	letter-spacing: 0.2718px;
+	color: #000000;
+
+}
+
+.point-wrap p {
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	color: #000000;
+}
+
+
+
+/*Разделитель между 2 и 3 страницами*/
+hr {
+	width: 1251px;
+	border: none;
+	border-top: 3px solid #ECECEC;
+	margin-bottom: 104px;
+	/* Видимость элемента */
+	/* display: none;  */
+}
+
+
+
+/*Правила для страницы 3*/
+.page-3-wrap {
+	display: flex;	
+	max-width: 1251px;
+	margin: 0 auto;
+	flex-direction: column;	
+	flex-wrap: wrap;
+	align-items: center;
+	/* Видимость элемента */
+	/* display: none; */
+}
+.page-3-wrap h2 {
+	text-transform: uppercase;
+	font-size: 41.9876px;
+	line-height: 0px;
+	letter-spacing: 0.3834px;
+	color: #000000;
+	margin-bottom: 28.52px;
+}
+
+.page-3-wrap p {
+	max-width: 536.85px;
+	text-align: center;
+	font-size: 15.9953px;
+	line-height: 28px;
+	color: #000000;
+	margin: 0;
+}
+
+.page-3-wrap hr {
+	margin: 33.48px 0 0 0;
+	width: 134px;
+	border: none;
+	border-top: 3px solid #FF2D2D;
+}
+.page-3-wrap ul {
+	display: flex;
+	margin:86px 0 0 0;
+	padding: 0;
+	flex-wrap: wrap;
+}
+
+.page-3-wrap li {
+	list-style-type: none;
+	margin-right: 29px;
+}
+
+.page-3-wrap a {
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: 29px;
+	font-family: 'Open Sans', 'Helvetica Neue',	sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 24px;
+	letter-spacing: 0.22px;
+	color: #000000;
+}
+
+.page-3-wrap a:hover {
+	color: #FF2D2D;
+}
+
+.slide-bar {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	margin-top: 48px;	
+	
+}
+.slide {
+	display: flex;
+	width: 301px;
+	height: 293px;
+	background-color: #5281FF;
+	margin: 5px;
+}
+
+.slide img {
+	width: 100%;
+	/*object-fit: contain;*/
+}
+
+/* Правила для страницы 4*/
+.page-4-wrap {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	margin-top: 137px;
+	max-width: 1251px;
+	/* Видимость элемента */
+	/* display: none; */
+}
+
+.page-4-wrap h2 {
+	margin: 0 0 34.52px 0;
+	text-transform: uppercase;
+	font-size: 41.9876px;
+	line-height: 0px;
+	letter-spacing: 0.3834px;
+	color: #000000;
+}
+
+.page-4-wrap p {
+	font-size: 15.9953px;
+	line-height: 28px;
+	color: #000000;
+	max-width: 446px;
+	margin: 0 0 37.48px 0;
+}
+
+.page-4-wrap hr {
+	margin: 0 0 66px 0;
+	width: 134px;
+	border: none;
+	border-top: 3px solid #FF2D2D;
+}
+
+.team-gallery-wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.main-photo {
+	width: 324px;
+	height: 460px;
+	background-color: #FF3F40;
+	margin-right: 79px;
+	display: flex;
+}
+
+.employees-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-top: 19px;
+	flex-wrap: wrap;
+}
+
+.employees-wrap h2 {
+	font-size: 30.127px;
+	line-height: 0;
+	letter-spacing: 0.2753px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.employees-wrap p {
+	max-width: 658px;
+	font-size: 15.9953px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.employees-wrap ul {
+	display: flex;
+	margin: 0 0 60px 0;
+	padding: 0;
+	flex-wrap: wrap; /*Не работает, т.к. ширина минимальная контейнера 403px*/
+}
+
+.employees-wrap li {
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+.employees-wrap a {
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.9px;
+	color: #000000;
+}
+
+.photos-wrap {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.photo {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 200px;
+	height: 177px;
+	background-color: #FF3F40;
+	margin: 12px 6px 0 6px;
+	padding-bottom: 40px;
+}
+
+.photo img {
+	width: 95%;
+	object-fit: contain;
+}
+
+.name-empl {
+	position: absolute;
+	bottom: 0;
+	width: 200px;
+	height: 37px;
+	background-color: #000000;
+	opacity: 0.5;
+	mix-blend-mode: normal;
+	align-items: flex-end;
+}
+
+.photo p {
+	width: 200px;
+	position: absolute;
+	bottom: -18px;
+	text-align: center;
+	font-size: 18.0762px;
+	line-height: 0;
+	letter-spacing: 0.1652px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-style: normal;
+}
+
+
+/*Правила для страницы 5*/
+.page-5-wrap {
+	flex-direction: column;
+	margin-top: 106px;
+	background-color: #2C2C2C;
+	width: 100%;
+}
+
+.page-5-wrap h2 {
+	margin-top: 151px;
+	font-size: 42px;
+	line-height: 24px;
+	letter-spacing: 1.05px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.page-5-wrap p {
+	margin-top: 16.52px;
+	font-size: 15.9953px;
+	line-height: 28px;
+	text-align: center;
+	color: #FFFFFF;
+}
+/*Здесь должна быть форма для подписки*/
+.form-subscribe form {
+	display: flex;
+	justify-content: center;
+	margin: 56.92px auto 141px auto;	
+	flex-wrap: wrap;
+}
+.form-subscribe form>input {
+	padding: 31px 0 27px 38px;
+	border: none;
+	width: 497px;
+	height: 24px;
+	margin-right: 19px;
+	margin-left: 19px;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+}
+
+/*.form-subscribe form>input::-webkit-input-placeholder{
+	font: 300 16px 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form-subscribe form>input::-moz-placeholder{
+	font: 300 16px 'Open Sans', 'Helvetica Neue', sans-serif
+}*/
+
+.form-subscribe form>button {
+	width: 217px;
+	height: 82px;
+	background-color: #FF2D2D;
+	border: none;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 17.9026px;
+	line-height: 34px;
+	letter-spacing: 0.317px;
+	color: #FFFFFF;
+}
+
+
+/*Правила для страницы 6*/
+.page-6-wrap {
+	display: flex;
+	flex-direction: column;
+	max-width: 1251px;
+	margin: 0 auto;
+	margin-top: 104px;
+	margin-bottom: 107px;
+}
+
+.txt-wrap-6 {
+	display: flex;
+	flex-direction: column;
+}
+
+.txt-wrap-6 h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 41.9876px;
+	line-height: 0px;
+	letter-spacing: 0.3834px;
+	color: #000000;
+	margin-bottom: 45.52px;
+}
+
+.txt-wrap-6 p {
+	font-size: 15.9953px;
+	line-height: 28px;
+	color: #000000;
+	margin: 0;
+	max-width: 740px;
+}
+
+.txt-wrap-6 hr {
+	margin: 33.48px 0 0 0;
+	width: 134px;
+	border: none;
+	border-top: 3px solid #FF2D2D;
+	margin-bottom: 73px;
+}
+
+.bottom-blocks-6 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left-wrap-6 form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-right: 104px;
+}
+
+.name-mail input {
+	width: 292px;
+	height: 21px;
+	background-color: #E5E5E5;
+	border: none;
+	padding: 25px 0 25px 50px;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 43px;
+}
+
+input[name="name"] {
+	margin-right: 51px;
+}
+
+.form-sendmsg textarea {
+/*	max-width: 681px;*/
+	height: 19px;
+	background-color: #E5E5E5;
+	border: none;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;	
+	padding: 33px 0 200px 53px;
+	margin-bottom: 43px;
+}
+
+.form-sendmsg button {
+	max-width: 731px;
+	height: 75px;
+	background-color: #FF3B3B;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	font-size: 17.9px;
+	line-height: 34px;
+	letter-spacing: 0.32px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 0;
+	border: none;
+}
+
+.right-wrap-6 {
+	background-color: #2D2D2D;	
+	height: 485px;
+	position: relative;	
+}
+
+.mask-wrap {
+	top:0;
+	left: 300px;
+	position: absolute;
+	width: 1000px;
+	height: 485px;
+	background-color: #2D2D2D;
+}
+
+.right-wrap-6 h2 {
+	font-size: 17.9026px;
+	line-height: 34px;
+	letter-spacing: 0.3170px;
+	text-transform: uppercase;
+	color: #FFFFFF;	
+	margin-top: 141.34px;
+	margin-left: 81px;
+}
+
+.right-wrap-6 p {
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	margin-left: 81px;
+}
+
+/*Правила для футера*/
+footer {
+	display: flex;
+	background-color: #313030;
+	min-height: 113px;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0 170px;	
+}
+
+footer p {
+
+	font-size: 16px;
+	line-height: 26px;
+	color: #B8B8B8;
+}
+
+.footer-images img {
+	margin: 0 9px;
+}
+
+
+
+/*Медиа-запросы*/
+@media screen and (max-width: 1290px) {
+	.page-4-wrap {
+		align-items: center;
+	}
+	
+	.team-gallery-wrap {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.main-photo {
+		margin-right: 0;
+	}
+	
+	.employees-wrap {
+		align-items: center;
+	}
+
+	.photos-wrap {
+		justify-content: center;
+	}
+
+	.page-6-wrap {
+		align-items: center;
+	}
+
+	.bottom-blocks-6 {
+		justify-content: center;
+	}
+
+	.bottom-blocks-6 form {
+		margin: 0 52px;
+	}
+
+	input[name="name"] {
+		margin-right: 0;
+	}
+
+	.name-mail {
+/*		display: flex;
+		flex-direction: column;
+		align-items: center;*/
+	}
+
+	.right-wrap-6 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 20px;
+		width: 100%;
+		height: 160px;
+	}
+
+	.right-wrap-6 h2 {
+		margin: 0;
+		text-align: center;
+	}
+
+	.right-wrap-6 p {
+		margin: 0;
+		text-align: center;
+	}
+
+
+	.mask-wrap {
+		display: none;
+	}
+
+}
+
+
+@media screen and (max-width: 1200px) {
+	.main-page {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.txt-our-org>.btn-contact-us {
+		margin: 0 auto;
+	}
+	.main-page img {
+		width: 80%;
+		margin: 50px 0;
+	}
+	footer {
+		padding: 0 100px;
+		justify-content: center;
+	}
+
+	.page-2-wrap {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.learn-more-wrap {
+		display: flex;
+		text-align: center;
+		margin-bottom: 20px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.learn-more-wrap p {
+		text-align: center;
+	}
+
+	.page-5-wrap h2 {
+		line-height: 40px;
+	}
+
+	.form-subscribe form>input {
+		margin-bottom: 10px;
+	}
+	.page-3-wrap ul {
+		justify-content: center;
+	}
+
+	.page-3-wrap li {
+		margin-bottom: 10px;
+	}	
+
+}
+@media screen and (max-width: 650px) {
+	nav {
+		max-width: 350px;	
+		margin-bottom: 10px;
+	}
+	nav ul {
+		justify-content: center;		
+	}
+
+	.main-page {
+		max-width: 80%;
+		margin: 0 auto;
+
+		justify-content: space-between;
+	}
+	.txt-our-org h1{
+		font-size: 7vw;
+		line-height: 8vw;
+	}
+	.txt-our-org p{
+
+	}
+	.main-page img {
+		width: 100%;
+		margin: 20px 0;
+	}
+	footer {
+		padding: 0 50px;
+		justify-content: center;
+	}	
+
+	.page-3-wrap h2 {
+		font-size: 1.79em;
+		letter-spacing: 0px;
+	}
+
+
+
+	.page-4-wrap h2 {
+		font-size: 38px;
+		letter-spacing: 0px;
+	}
+
+	.bottom-blocks-6 form {
+		margin: 0;
+	}
+
+
+	.service-list-wrap {
+	    justify-content: center;
+	}
+
+
+}
+@media screen and (max-width: 380px) {
+	.name-mail input{
+		width: 75vw;
+	}	
+}
